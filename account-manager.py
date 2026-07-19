@@ -1,6 +1,6 @@
+#Refactored Account
+
 from abc import ABC,abstractmethod
-
-
 class BankConfig: 
     _instance = None 
     def __new__(cls): 
